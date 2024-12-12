@@ -71,7 +71,7 @@ const App = () => {
             const cityInfo = DEFAULT_CITIES[index];
             return (
               <div key={weather.id} className="weather-card">
-                <h3>
+                <h3 className="bandera">
                   <img
                     src={`https://flagcdn.com/w40/${cityInfo.country}.png`}
                     alt={`${cityInfo.name} flag`}
